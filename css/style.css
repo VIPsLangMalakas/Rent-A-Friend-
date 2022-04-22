@@ -1,0 +1,187 @@
+/* Navbar Section */
+.navbar-brand {
+  font-family: 'Sail', cursive;
+  font-size: 30px;
+}
+
+
+/* Title Section */
+#title{
+width: 100%;
+max-width: 100%;
+}
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+h2 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+h3 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.row{
+text-align: center;
+
+}
+.row-h1{
+
+margin-top: 100px;
+
+}
+
+/* Media Query */
+
+@media (max-width:1028px){
+#title{
+  width: 100%;
+  max-width: 100%;
+
+}
+.row-image{
+position: relative;
+right: 50px;
+
+}
+.press1{
+  margin: 10px 10px 10px;
+  width: 42%;
+  height: 42%;
+
+}
+#press{
+position: relative;
+  padding-top: 100px;
+}
+
+}
+
+/* Features Section */
+
+#features{
+position: static;
+
+z-index: 1;
+
+}
+
+.f-star {
+  color: white;
+}
+
+.fa-star:hover {
+  color: yellow;
+}
+
+.fa-infinity {
+  color: white;
+}
+
+.fa-infinity:hover {
+  color: yellow;
+}
+
+.fa-circle-check {
+  color: white;
+}
+
+.fa-circle-check:hover {
+  color: yellow;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  font-size: 15px;
+}
+
+h4 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+}
+
+.testimonials-image {
+  width: 150px;
+  border-radius: 50%;
+  height: 150px;
+}
+.whippy{
+padding-bottom: 72px;
+}
+.grubby{
+padding-bottom: 72px;
+}
+
+/* Press */
+
+#press {
+  text-align: center;
+}
+
+}
+.press1 {
+  margin: 20px 20px 30px 0px;
+  width: 12%;
+}
+
+/* Pricing */
+
+#pricing{
+
+text-align: center;
+
+}
+h5 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  padding-top: 10px;
+
+}
+p{
+
+font-size: 30px;
+
+}
+.price{
+
+padding: 2% 2% 2% 2%;
+
+}
+
+.card-header{
+
+  background-color: #FFA500;
+
+}
+/* Call To Action */
+#cta{
+text-align: center;
+}
+h6{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 80px;
+  color: black;
+    padding-top: 100px;
+}
+/* Footer */
+#footer{
+text-align: center;
+
+}
+p2{
+font-size: 15px;
+
+}
+.icons2{
+  text-align: center;
+padding-left: 10px;
+
+}
